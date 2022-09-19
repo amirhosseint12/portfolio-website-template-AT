@@ -1,0 +1,92 @@
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    .nav-desktop__logo{
+        font-size: 5rem;
+    }
+    .nav_desktop__link{
+        margin-right: 0rem;
+    }
+    .home__photos{
+        width: 34rem;
+        height: 34rem;
+    }
+    .home__user-job{
+        font-size: 3rem;
+    }
+    .home__user-name{
+        font-size: 1.6rem;
+    }
+    .home__caption{
+        font-size: 1.3rem;
+    }
+    .about{
+        flex-direction: column;
+    }
+
+    .resume-list::before,
+    .resume-list__item::before{
+        content: none;
+    }
+    .resume-list__icon{
+        display: none;
+    }
+    .resume-list{
+        flex-direction: row;
+        gap: 1rem;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        min-height: auto;
+        box-shadow: none;
+        background-color: transparent;
+    }
+    .resume-list__item{
+        background-color: none;
+        border-radius: 2rem;
+        margin-bottom: 0;
+        padding: 1rem 1.5rem;
+    }
+    .resume-list__text {
+        font-size: 1.6rem;
+        margin:0;
+    }
+    .contactus__map{
+        display: none;
+    }
+    .contact{
+        margin-right: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .nav-desktop{
+        display: none;
+    }
+    .nav-mobile{
+        display: block; 
+    }
+    .home__content{
+        align-items: center;
+    }
+    .home .row {
+        flex-direction: column-reverse;
+    }
+    .home{
+        height: 80rem;
+    }
+    .service{
+        padding: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer__wrapper{
+        flex-wrap: wrap;
+    }
+
+}
